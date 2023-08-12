@@ -1,0 +1,16 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Denis Anikin", email = "ad@xfenix.ru"},
+]
+dependencies = [
+    "pytest>=7.4.0",
+    "pytest-benchmark>=4.0.0",
+    "msgspec>=0.18.0",
+    "pydantic>=2.1.1",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
