@@ -16,6 +16,7 @@ def _parse_fake_user(payload_data: dict) -> FakeUser:
 
 
 @pytest.mark.benchmark(
+    group="simple-validation-test",
     min_rounds=3,
 )
 def test_pydantic_parse(benchmark):
