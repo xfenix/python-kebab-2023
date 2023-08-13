@@ -1,6 +1,4 @@
-import decimal
-from pydantic import BaseModel, ValidationError
-from enum import Enum, IntEnum
+from enum import IntEnum
 
 
 class GenderType(IntEnum):
@@ -15,9 +13,3 @@ class GenderType(IntEnum):
     android = 9
     caramel_mocha_frappuccino = 10
     semi_conductor_wolf = 11
-
-
-class FakeUser(BaseModel):
-    client_fio: str
-    phone_of_mama: int
-    card_balance: decimal.Decimal
